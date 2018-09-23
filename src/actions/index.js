@@ -1,6 +1,6 @@
 export const RECIVE_MEMES = 'RECEVIE_MEMES';
 
-function recevieMemes( json ) {
+function reciveMemes( json ) {
     const { memes } = json.data;
     
     return {
