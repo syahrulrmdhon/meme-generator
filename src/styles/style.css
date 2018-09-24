@@ -10,7 +10,7 @@ body {
     position: relative;
     width: 200px;
     height: 200px;
-    margin: 5px;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -30,10 +30,33 @@ body {
     position: absolute;
     border-radius: 5px;
     bottom: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+.no-text {
+    display: none;
+}
+
+.dark-img {
+    background-color: gray;
+    filter: brightness(10%);
+    animation-name: darken;
+    animation-duration: 1s;
 }
 
 .load {
     margin-top: 40px;
     margin-bottom: 100px;
     width: 50%;
+}
+
+@keyframes darken {
+    from {filter: brightness(90%)};
+    to {filter: brightness(10%)};
+}
+
+@keyframes fade-in {
+    from {opacity: 0};
+    to {opacity: 100};
 }
