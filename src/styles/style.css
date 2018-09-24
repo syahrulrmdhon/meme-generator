@@ -1,4 +1,39 @@
 body {
-    background-color: lightcoral;
+    background-color: brown;
     color: ivory;
+}
+
+.meme-item {
+    text-align: left;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.meme-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid white;
+    position: absolute;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+
+.meme-text {
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+}
+
+.load {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 50%;
 }
