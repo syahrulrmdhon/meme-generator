@@ -20,7 +20,7 @@ class App extends Component {
         return (
             <div className="container h-100">
                 <div className="row h-100 justify-content-center align-items-center">
-                    <h1>Selamat Datang di Meme Generator</h1>
+                    <h1>Bikin Memes</h1>
                 </div>
                 <div className="row h-100 justify-content-center align-items-center">
                 {
