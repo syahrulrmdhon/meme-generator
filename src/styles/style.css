@@ -45,6 +45,10 @@ body {
     animation-duration: 1s;
 }
 
+.form-control {
+    margin: 10px;
+}
+
 .load {
     margin-top: 40px;
     margin-bottom: 100px;
